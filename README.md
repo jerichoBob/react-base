@@ -11,7 +11,7 @@ TL;DR - here are the article's favored components (could easily get this from th
    * **Dependency management**: It’s all about NPM, CommonJS and ES6 modules
    * **Build tool**: [webpack](https://webpack.github.io/)
    * **Testing**: [Mocha](https://mochajs.org/) + [Chai](http://chaijs.com/) + [Sinon](http://sinonjs.org/) (but it’s not that simple) -- bobse: I'm probably going to go with [Jasmine](http://jasmine.github.io/2.4/introduction.html)
-   ** also need to add E2E testing! 
+    * also need to add E2E testing! 
    * **Utility library**: [lodash](https://lodash.com/)
    * **Http requests**: [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) + [http-client](https://github.com/mjackson/http-client)
    * **Styling**: Consider CSS modules -- bobse: I'll probably want to be a little more opinionated here
