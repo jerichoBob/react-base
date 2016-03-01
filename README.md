@@ -17,3 +17,47 @@ TL;DR - here are the article's favored components (could easily get this from th
    * **Styling**: Consider CSS modules -- bobse: I'll probably want to be a little more opinionated here
    * **(Data) API**: [GraphQL](https://facebook.github.io/react/blog/2015/05/01/graphql-introduction.html)/[Relay](http://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html) & REST everywhere else
 
+``` javascript
+package.json == {
+  "name": "react-base",
+  "version": "1.0.0",
+  "description": "A react base for personal projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerichoBob/react-base.git"
+  },
+  "keywords": [
+    "react",
+    "basic"
+  ],
+  "author": "bobse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerichoBob/react-base/issues"
+  },
+  "homepage": "https://github.com/jerichoBob/react-base#readme",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.4.0",
+    "redux": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.6.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.2",
+    "eslint-plugin-react": "^4.1.0",
+    "redux-devtools": "^3.1.1",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
+```
+
