@@ -18,7 +18,7 @@ TL;DR - here are the article's favored components (could easily get this from th
    * **(Data) API**: [GraphQL](https://facebook.github.io/react/blog/2015/05/01/graphql-introduction.html)/[Relay](http://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html) & REST everywhere else
 
 **package.json** looks like this (so far):
-``` js
+``` json
 {
   "name": "react-base",
   "version": "1.0.0",
