@@ -17,8 +17,9 @@ TL;DR - here are the article's favored components (could easily get this from th
    * **Styling**: Consider CSS modules -- bobse: I'll probably want to be a little more opinionated here
    * **(Data) API**: [GraphQL](https://facebook.github.io/react/blog/2015/05/01/graphql-introduction.html)/[Relay](http://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html) & REST everywhere else
 
-``` javascript
-package.json == {
+**package.json** looks like this (so far):
+``` json
+{
   "name": "react-base",
   "version": "1.0.0",
   "description": "A react base for personal projects.",
